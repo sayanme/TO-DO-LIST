@@ -8,6 +8,7 @@ function addtask() {
     document.getElementById('task').value = "";
     deletetask(newtask);
     tasklist.appendChild(newtask);
+    editTask(newtask)
 }
 
 function deletetask(newtask) {
@@ -35,5 +36,15 @@ function addTaskoption(newtask) {
         }
     }
 }
+function editTask(newtask){
+    const editbtn = document.createElement("button");
+    editbtn.textContent="Edit";
+    editbtn.style.margin = "2px";
+    newtask.appendChild(editbtn)
+    editbtn.onclick = function(){
+        editTask.tasktext;
+    }
+}
+
 
 
