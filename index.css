@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins' sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    background-image: url('background.jpg');
+    /* Correct path to your image */
+    background-size: cover;
+    /* Cover entire background */
+    background-repeat: no-repeat;
+    /* Don't tile the image */
+    background-position: center center;
+    /* Center the image */
+    background-attachment: fixed;
+    /* Optional: makes it stay on scroll */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-style: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.text {
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.text h1 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.text h1 span {
+    color: #ff004f;
+}
+
+.container {
+    border-radius: 15px;
+    background: #262626;
+    height: auto;
+    margin-top: 90px;
+    width: 30vw;
+    color: #ff004f;
+    margin-left: 30%;
+    box-shadow: 4px 5px 6px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ff004f;
+    font-size: 25px;
+    margin-top: 3px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.addtask {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    padding: 7px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    box-shadow: 3px 3px 4px #fff;
+    transition: background 0.5s, transfrom 0.5s;
+}
+
+input:hover {
+    background: #262626;
+    transform: translateY(-7px);
+    color: #fff;
+    box-shadow: 3px 4px 5px #ff004f;
+}
+
+.btn {
+    padding: 6px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 1px 1px 2px #fff;
+    transition: transform 0.5s ease;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn:hover {
+    background: #ccc;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 4px #ff004f;
+
+}
+ul{
+    list-style:none;
+    padding: 15px;
+
+} 
+li{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+border: 1px solid gray;
+border-radius: 7px;
+padding: 8px;
+margin-bottom: 7px;
+
+}
